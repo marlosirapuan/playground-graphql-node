@@ -1,0 +1,15 @@
+version: '3.7'
+services:
+  mariadb:
+    image: mariadb:latest
+    container_name: playgroundgraphql
+    environment:
+      MYSQL_ROOT_PASSWORD: docker
+      MYSQL_DATABASE: playgroundgraphql
+      MYSQL_USER: docker
+      MYSQL_PASSWORD: docker
+    restart: always
+    ports:
+      - 3307:3306
+    # volumes:
+    #   - ${PWD}/mariadb/playgroundgraphql:/var/lib/mysql
