@@ -10,7 +10,7 @@
     "graphql-yoga": "^1.18.1",
     "merge-graphql-schemas": "^1.6.2-3705b28.0",
     "mysql2": "^1.6.5",
-    "sequelize": "^5.12.0"
+    "sequelize": "^5.15.1"
   },
   "devDependencies": {
     "nodemon": "^1.19.1",
